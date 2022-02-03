@@ -36,6 +36,22 @@
 					"strict" : false
 				},
 				{
+					"name" : "Aval[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[7]",
+					"strict" : false
+				},
+				{
 					"name" : "Bval[0]",
 					"strict" : false
 				},
@@ -49,6 +65,22 @@
 				},
 				{
 					"name" : "Bval[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[7]",
 					"strict" : false
 				},
 				{
@@ -80,6 +112,34 @@
 					"strict" : false
 				},
 				{
+					"name" : "AhexU[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexU[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexU[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexU[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AhexU[6]",
+					"strict" : false
+				},
+				{
 					"name" : "BhexL[0]",
 					"strict" : false
 				},
@@ -105,6 +165,34 @@
 				},
 				{
 					"name" : "BhexL[6]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexU[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexU[3]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexU[4]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexU[5]",
+					"strict" : false
+				},
+				{
+					"name" : "BhexU[6]",
 					"strict" : false
 				},
 				{
@@ -144,23 +232,19 @@
 					"strict" : false
 				},
 				{
-					"name" : "R[0]",
+					"name" : "Din[4]",
 					"strict" : false
 				},
 				{
-					"name" : "R[1]",
+					"name" : "Din[5]",
 					"strict" : false
 				},
 				{
-					"name" : "F[2]",
+					"name" : "Din[6]",
 					"strict" : false
 				},
 				{
-					"name" : "F[1]",
-					"strict" : false
-				},
-				{
-					"name" : "F[0]",
+					"name" : "Din[7]",
 					"strict" : false
 				}
 			]
