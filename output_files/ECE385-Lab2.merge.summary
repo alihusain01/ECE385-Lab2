@@ -1,0 +1,16 @@
+Partition Merge Status : Successful - Thu Feb 03 21:50:29 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : ECE385-Lab2
+Top-level Entity Name : Processor
+Family : MAX 10
+Total logic elements : 779
+    Total combinational functions : 494
+    Dedicated logic registers : 579
+Total registers : 579
+Total pins : 61
+Total virtual pins : 0
+Total memory bits : 2,176
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

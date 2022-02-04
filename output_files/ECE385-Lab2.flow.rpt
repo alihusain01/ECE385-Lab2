@@ -1,5 +1,5 @@
 Flow report for ECE385-Lab2
-Wed Feb 02 23:58:12 2022
+Thu Feb 03 21:58:07 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,20 +40,20 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Feb 02 23:58:12 2022       ;
+; Flow Status                        ; Successful - Thu Feb 03 21:58:07 2022       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; ECE385-Lab2                                 ;
 ; Top-level Entity Name              ; Processor                                   ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C7G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 69                                          ;
-;     Total combinational functions  ; 59                                          ;
-;     Dedicated logic registers      ; 38                                          ;
-; Total registers                    ; 38                                          ;
+; Total logic elements               ; 778                                         ;
+;     Total combinational functions  ; 493                                         ;
+;     Dedicated logic registers      ; 579                                         ;
+; Total registers                    ; 579                                         ;
 ; Total pins                         ; 61                                          ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0                                           ;
+; Total memory bits                  ; 2,176                                       ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
 ; Total PLLs                         ; 0                                           ;
 ; UFM blocks                         ; 0                                           ;
@@ -66,38 +66,67 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/02/2022 23:57:57 ;
+; Start date & time ; 02/03/2022 21:57:30 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ECE385-Lab2         ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                             ;
-+--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
-+--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 174508013120537.164386787702864        ; --            ; --          ; --             ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; testbench_8    ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench_8                            ; --            ; --          ; eda_simulation ;
-; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --          ; --             ;
-; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation ;
-; EDA_TEST_BENCH_FILE                  ; testbench_8.sv                         ; --            ; --          ; testbench_8    ;
-; EDA_TEST_BENCH_MODULE_NAME           ; testbench_8                            ; --            ; --          ; testbench_8    ;
-; EDA_TEST_BENCH_NAME                  ; testbench_8                            ; --            ; --          ; eda_simulation ;
-; EDA_TEST_BENCH_RUN_SIM_FOR           ; 200 ns                                 ; --            ; --          ; testbench_8    ;
-; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; Processor   ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; Processor   ; Top            ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; Processor   ; Top            ;
-; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --          ; --             ;
-; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --             ;
-; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --          ; --             ;
-; TOP_LEVEL_ENTITY                     ; Processor                              ; ECE385-Lab2   ; --          ; --             ;
-+--------------------------------------+----------------------------------------+---------------+-------------+----------------+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                      ;
++--------------------------------------+-----------------------------------------------+---------------+-------------+------------------+
+; Assignment Name                      ; Value                                         ; Default Value ; Entity Name ; Section Id       ;
++--------------------------------------+-----------------------------------------------+---------------+-------------+------------------+
+; COMPILER_SIGNATURE_ID                ; 174508013120537.164394704904296               ; --            ; --          ; --               ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                            ; --            ; --          ; testbench_8      ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench_8                                   ; --            ; --          ; eda_simulation   ;
+; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                             ; --            ; --          ; eda_simulation   ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (SystemVerilog)               ; <None>        ; --          ; --               ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                               ; --            ; --          ; eda_simulation   ;
+; EDA_TEST_BENCH_FILE                  ; testbench_8.sv                                ; --            ; --          ; testbench_8      ;
+; EDA_TEST_BENCH_MODULE_NAME           ; testbench_8                                   ; --            ; --          ; testbench_8      ;
+; EDA_TEST_BENCH_NAME                  ; testbench_8                                   ; --            ; --          ; eda_simulation   ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 200 ns                                        ; --            ; --          ; testbench_8      ;
+; EDA_TIME_SCALE                       ; 1 ns                                          ; --            ; --          ; eda_simulation   ;
+; ENABLE_SIGNALTAP                     ; On                                            ; --            ; --          ; --               ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                            ; --            ; --          ; --               ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                             ; --            ; --          ; --               ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)        ; --            ; Processor   ; Top              ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)        ; --            ; Processor   ; Top              ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)        ; --            ; Processor   ; Top              ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                           ; --            ; --          ; --               ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW         ; --            ; --          ; --               ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                  ; --            ; --          ; --               ;
+; SLD_FILE                             ; db/stp2_auto_stripped.stp                     ; --            ; --          ; --               ;
+; SLD_NODE_CREATOR_ID                  ; 110                                           ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_ENTITY_NAME                 ; sld_signaltap                                 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_RAM_BLOCK_TYPE=AUTO                       ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_DATA_BITS=17                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_BITS=1                            ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_INFO=805334528                       ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_POWER_UP_TRIGGER=0                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SEGMENT_SIZE=128                          ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ATTRIBUTE_MEM_MODE=OFF                    ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INCREMENTAL_ROUTING=1                     ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL=1                           ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SAMPLE_DEPTH=128                          ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_IN_ENABLED=0                      ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_PIPELINE=0                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_COUNTER_PIPELINE=0                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,          ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL_PIPELINE=1                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ENABLE_ADVANCED_TRIGGER=0                 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK=000000000000000000000000   ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK_LENGTH=24                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_FLOW_USE_GENERATED=0                ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_BITS=11                             ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_BUFFER_FULL_STOP=1                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_CURRENT_RESOURCE_WIDTH=1                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_RAM_PIPELINE=2                            ; --            ; --          ; auto_signaltap_0 ;
+; TOP_LEVEL_ENTITY                     ; Processor                                     ; ECE385-Lab2   ; --          ; --               ;
+; USE_SIGNALTAP_FILE                   ; stp2.stp                                      ; --            ; --          ; --               ;
++--------------------------------------+-----------------------------------------------+---------------+-------------+------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -105,8 +134,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 4765 MB             ; 00:00:36                           ;
-; Total                ; 00:00:16     ; --                      ; --                  ; 00:00:36                           ;
+; Analysis & Synthesis ; 00:00:36     ; 1.0                     ; 4843 MB             ; 00:01:15                           ;
+; Total                ; 00:00:36     ; --                      ; --                  ; 00:01:15                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

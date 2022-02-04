@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/alijh/Documents/ECE 385/ECE385-Lab2/simulation/modelsim
 vcompute
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1643868291
+Z2 !s110 1643947103
 !i10b 1
 !s100 i=]6932U1_OWO<5E?3HbR1
 I9b<XhKQ4ANoz7CNNj3gfl1
@@ -26,7 +26,7 @@ Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1643868291.000000
+Z6 !s108 1643947103.000000
 !s107 C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2|C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv|
 !i113 1
@@ -60,7 +60,7 @@ R8
 R9
 vHexDriver
 R1
-Z10 !s110 1643868290
+R2
 !i10b 1
 !s100 ^DddjRd7Wla]U<SlP;mT@0
 IUXX@2Vbdm;:>gk][hBEnS2
@@ -76,7 +76,7 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1643868290.000000
+R6
 !s107 C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/HexDriver.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2|C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/HexDriver.sv|
 !i113 1
@@ -86,15 +86,15 @@ R9
 n@hex@driver
 vProcessor
 R1
-R2
+Z10 !s110 1643947104
 !i10b 1
-!s100 m3WF;IZTmAoVE2i<4^_eF2
-I2ZJRQOED]ebjzin1=^GL?3
+!s100 @F;8BAj^oS[z23749=eMV2
+IHFU>FQ>J2mdQ6hlSJ4bT_3
 R3
 !s105 Processor_sv_unit
 S1
 R0
-w1643865549
+w1643947048
 8C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Processor.sv
 FC:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Processor.sv
 L0 8
@@ -102,7 +102,7 @@ R5
 r1
 !s85 0
 31
-R6
+Z11 !s108 1643947104.000000
 !s107 C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Processor.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2|C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Processor.sv|
 !i113 1
@@ -112,7 +112,7 @@ R9
 n@processor
 vreg_4
 R1
-R10
+R2
 !i10b 1
 !s100 zGTD;PMJQQWY1KMfjTiPo0
 IRPCo>^oF3FgWdbIb6a<7C0
@@ -128,7 +128,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Reg_4.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2|C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Reg_4.sv|
 !i113 1
@@ -162,7 +162,7 @@ R8
 R9
 vrouter
 R1
-R10
+R2
 !i10b 1
 !s100 lIdD9@`9>^lYia[Dkg2aV0
 IB;`Ja@PAD:R;KfgAi>Xi60
@@ -178,7 +178,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2|C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv|
 !i113 1
@@ -187,7 +187,7 @@ R8
 R9
 vsync
 R1
-R10
+R2
 !i10b 1
 !s100 2W5Vz0:F6ckE2`eJOTK5l1
 IPnB3en2TUZoMWH7FL1h_S3
@@ -203,7 +203,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 Z16 !s107 C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Synchronizers.sv|
 Z17 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2|C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Synchronizers.sv|
 !i113 1
@@ -212,7 +212,7 @@ R8
 R9
 vsync_r0
 R1
-R10
+R2
 !i10b 1
 !s100 IGd9f_F;JNjVBLQ@DAnD10
 I?h^LTocbSA0blhEXg4fJV0
@@ -228,7 +228,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 R16
 R17
 !i113 1
@@ -237,7 +237,7 @@ R8
 R9
 vsync_r1
 R1
-R10
+R2
 !i10b 1
 !s100 1CXiH1DYDbAUS69Ee2j060
 I84Qk85F^YI_l:YX8Haf`e2
@@ -253,7 +253,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 R16
 R17
 !i113 1
@@ -262,7 +262,7 @@ R8
 R9
 vtestbench_8
 R1
-R2
+R10
 !i10b 1
 !s100 X[88G4b[D]An>iaNUDD_Y1
 I]^l6;_SHjI0=;2OVUd>XT3
@@ -278,7 +278,7 @@ R5
 r1
 !s85 0
 31
-R6
+R11
 !s107 C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/testbench_8.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2|C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/testbench_8.sv|
 !i113 1

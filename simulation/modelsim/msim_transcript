@@ -12,7 +12,7 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/ECE385-Lab2 {C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Synchronizers.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:04:50 on Feb 03,2022
+# Start time: 21:58:23 on Feb 03,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2" C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Synchronizers.sv 
 # -- Compiling module sync
 # -- Compiling module sync_r0
@@ -22,93 +22,93 @@
 # 	sync
 # 	sync_r0
 # 	sync_r1
-# End time: 00:04:50 on Feb 03,2022, Elapsed time: 0:00:00
+# End time: 21:58:23 on Feb 03,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/ECE385-Lab2 {C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:04:50 on Feb 03,2022
+# Start time: 21:58:23 on Feb 03,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2" C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv 
 # -- Compiling module router
 # 
 # Top level modules:
 # 	router
-# End time: 00:04:50 on Feb 03,2022, Elapsed time: 0:00:00
+# End time: 21:58:23 on Feb 03,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/ECE385-Lab2 {C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Reg_4.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:04:50 on Feb 03,2022
+# Start time: 21:58:23 on Feb 03,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2" C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Reg_4.sv 
 # -- Compiling module reg_4
 # 
 # Top level modules:
 # 	reg_4
-# End time: 00:04:50 on Feb 03,2022, Elapsed time: 0:00:00
+# End time: 21:58:23 on Feb 03,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/ECE385-Lab2 {C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/HexDriver.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:04:50 on Feb 03,2022
+# Start time: 21:58:23 on Feb 03,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2" C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/HexDriver.sv 
 # -- Compiling module HexDriver
 # 
 # Top level modules:
 # 	HexDriver
-# End time: 00:04:50 on Feb 03,2022, Elapsed time: 0:00:00
+# End time: 21:58:23 on Feb 03,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/ECE385-Lab2 {C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Control.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:04:51 on Feb 03,2022
+# Start time: 21:58:23 on Feb 03,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2" C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Control.sv 
 # -- Compiling module control
 # 
 # Top level modules:
 # 	control
-# End time: 00:04:51 on Feb 03,2022, Elapsed time: 0:00:00
+# End time: 21:58:23 on Feb 03,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/ECE385-Lab2 {C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:04:51 on Feb 03,2022
+# Start time: 21:58:23 on Feb 03,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2" C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv 
 # -- Compiling module compute
 # 
 # Top level modules:
 # 	compute
-# End time: 00:04:51 on Feb 03,2022, Elapsed time: 0:00:00
+# End time: 21:58:23 on Feb 03,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/ECE385-Lab2 {C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Register_unit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:04:51 on Feb 03,2022
+# Start time: 21:58:23 on Feb 03,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2" C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Register_unit.sv 
 # -- Compiling module register_unit
 # 
 # Top level modules:
 # 	register_unit
-# End time: 00:04:51 on Feb 03,2022, Elapsed time: 0:00:00
+# End time: 21:58:23 on Feb 03,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/ECE385-Lab2 {C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Processor.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:04:51 on Feb 03,2022
+# Start time: 21:58:24 on Feb 03,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2" C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Processor.sv 
 # -- Compiling module Processor
 # 
 # Top level modules:
 # 	Processor
-# End time: 00:04:51 on Feb 03,2022, Elapsed time: 0:00:00
+# End time: 21:58:24 on Feb 03,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/alijh/Documents/ECE\ 385/ECE385-Lab2 {C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/testbench_8.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:04:51 on Feb 03,2022
+# Start time: 21:58:24 on Feb 03,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/alijh/Documents/ECE 385/ECE385-Lab2" C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/testbench_8.sv 
 # -- Compiling module testbench_8
 # 
 # Top level modules:
 # 	testbench_8
-# End time: 00:04:51 on Feb 03,2022, Elapsed time: 0:00:00
+# End time: 21:58:24 on Feb 03,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_8
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_8 
-# Start time: 00:04:51 on Feb 03,2022
+# Start time: 21:58:24 on Feb 03,2022
 # Loading sv_std.std
 # Loading work.testbench_8
 # Loading work.Processor
@@ -136,9 +136,76 @@
 #    Time: 0 ps  Iteration: 0  Instance: /testbench_8/processor0/compute_unit
 # ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Control.sv(25): No condition is true in the unique/priority if/case statement.
 #    Time: 10 ns  Iteration: 2  Instance: /testbench_8/processor0/control_unit
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(7): No condition is true in the unique/priority if/case statement.
+#    Time: 30 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(17): No condition is true in the unique/priority if/case statement.
+#    Time: 30 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv(8): No condition is true in the unique/priority if/case statement.
+#    Time: 30 ns  Iteration: 2  Instance: /testbench_8/processor0/compute_unit
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(7): No condition is true in the unique/priority if/case statement.
+#    Time: 70 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(17): No condition is true in the unique/priority if/case statement.
+#    Time: 70 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv(8): No condition is true in the unique/priority if/case statement.
+#    Time: 70 ns  Iteration: 2  Instance: /testbench_8/processor0/compute_unit
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(7): No condition is true in the unique/priority if/case statement.
+#    Time: 110 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(17): No condition is true in the unique/priority if/case statement.
+#    Time: 110 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv(8): No condition is true in the unique/priority if/case statement.
+#    Time: 110 ns  Iteration: 2  Instance: /testbench_8/processor0/compute_unit
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(7): No condition is true in the unique/priority if/case statement.
+#    Time: 170 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(17): No condition is true in the unique/priority if/case statement.
+#    Time: 170 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv(8): No condition is true in the unique/priority if/case statement.
+#    Time: 170 ns  Iteration: 2  Instance: /testbench_8/processor0/compute_unit
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(7): No condition is true in the unique/priority if/case statement.
+#    Time: 190 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(17): No condition is true in the unique/priority if/case statement.
+#    Time: 190 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv(8): No condition is true in the unique/priority if/case statement.
+#    Time: 190 ns  Iteration: 2  Instance: /testbench_8/processor0/compute_unit
+run
 run -all
-#           6 error(s) detected. Try again!
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(7): No condition is true in the unique/priority if/case statement.
+#    Time: 210 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(17): No condition is true in the unique/priority if/case statement.
+#    Time: 210 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv(8): No condition is true in the unique/priority if/case statement.
+#    Time: 210 ns  Iteration: 2  Instance: /testbench_8/processor0/compute_unit
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(7): No condition is true in the unique/priority if/case statement.
+#    Time: 230 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(17): No condition is true in the unique/priority if/case statement.
+#    Time: 230 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv(8): No condition is true in the unique/priority if/case statement.
+#    Time: 230 ns  Iteration: 2  Instance: /testbench_8/processor0/compute_unit
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(7): No condition is true in the unique/priority if/case statement.
+#    Time: 250 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(17): No condition is true in the unique/priority if/case statement.
+#    Time: 250 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv(8): No condition is true in the unique/priority if/case statement.
+#    Time: 250 ns  Iteration: 2  Instance: /testbench_8/processor0/compute_unit
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(7): No condition is true in the unique/priority if/case statement.
+#    Time: 270 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(17): No condition is true in the unique/priority if/case statement.
+#    Time: 270 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv(8): No condition is true in the unique/priority if/case statement.
+#    Time: 270 ns  Iteration: 2  Instance: /testbench_8/processor0/compute_unit
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(7): No condition is true in the unique/priority if/case statement.
+#    Time: 290 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(17): No condition is true in the unique/priority if/case statement.
+#    Time: 290 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv(8): No condition is true in the unique/priority if/case statement.
+#    Time: 290 ns  Iteration: 2  Instance: /testbench_8/processor0/compute_unit
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(7): No condition is true in the unique/priority if/case statement.
+#    Time: 310 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/Router.sv(17): No condition is true in the unique/priority if/case statement.
+#    Time: 310 ns  Iteration: 2  Instance: /testbench_8/processor0/router
+# ** Warning: (vsim-8315) C:/Users/alijh/Documents/ECE 385/ECE385-Lab2/compute.sv(8): No condition is true in the unique/priority if/case statement.
+#    Time: 310 ns  Iteration: 2  Instance: /testbench_8/processor0/compute_unit
+# Success!
 # Break key hit
 # Simulation stop requested.
-# End time: 00:07:07 on Feb 03,2022, Elapsed time: 0:02:16
-# Errors: 0, Warnings: 5
+# End time: 21:59:58 on Feb 03,2022, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 38
